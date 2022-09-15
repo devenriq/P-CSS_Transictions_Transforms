@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Transform Scale</title>
+    <style>
+      body {
+        background-color: aquamarine;
+        display: flex;
+        justify-content: center;
+      }
+
+      .shadow {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 500px;
+        height: 500px;
+        background-color: gray;
+      }
+
+      .circle {
+        height: 100px;
+        width: 100px;
+        border-radius: 5px;
+        background-color: #ffe53b;
+        background-image: linear-gradient(147deg, #ffe53b 0%, #ff2525 74%);
+      }
+
+      .circle:hover {
+        transform: rotateY(45deg);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="shadow">
+      <div class="circle"></div>
+    </div>
+  </body>
+</html>
